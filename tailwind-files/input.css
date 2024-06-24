@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: arcade;
+        src: url("../project-files/fonts/ARCADE_R.TTF");
+    }
+}

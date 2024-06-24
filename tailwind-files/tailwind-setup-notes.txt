@@ -13,4 +13,8 @@ Then I linked the stylesheet onto the html sheet. Making sure to link output.css
 
 Then I ran either of these commands. 
 ./tailwindcss -i input.css -o output.css --watch
-./tailwindcss -i input.css -o output.css --minify
+./tailwindcss -i input.css -o output.css --minify\
+
+Windows directions
+Open terminal and navigate to program directory
+tailwindcss-windows-x64.exe --input input.css --output output.css --watch
