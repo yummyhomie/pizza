@@ -560,9 +560,82 @@ video {
   --tw-contain-style:  ;
 }
 
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
+.col-span-4 {
+  grid-column: span 4 / span 4;
+}
+
+.col-start-2 {
+  grid-column-start: 2;
+}
+
+.col-start-1 {
+  grid-column-start: 1;
+}
+
+.col-end-5 {
+  grid-column-end: 5;
+}
+
+.col-end-3 {
+  grid-column-end: 3;
+}
+
+.col-end-7 {
+  grid-column-end: 7;
+}
+
+.col-end-6 {
+  grid-column-end: 6;
+}
+
+.row-span-2 {
+  grid-row: span 2 / span 2;
+}
+
+.row-span-3 {
+  grid-row: span 3 / span 3;
+}
+
+.row-span-4 {
+  grid-row: span 4 / span 4;
+}
+
+.row-span-1 {
+  grid-row: span 1 / span 1;
+}
+
+.row-start-1 {
+  grid-row-start: 1;
+}
+
+.row-end-4 {
+  grid-row-end: 4;
+}
+
+.float-right {
+  float: right;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .ml-4 {
@@ -573,44 +646,137 @@ video {
   margin-top: 1rem;
 }
 
-.w-\[100px\] {
-  width: 100px;
+.mt-20 {
+  margin-top: 5rem;
 }
 
-.w-\[100\] {
-  width: 100;
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
-.w-\[500px\] {
-  width: 500px;
+.mt-8 {
+  margin-top: 2rem;
 }
 
-.w-\[110px\] {
-  width: 110px;
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mb-60 {
+  margin-bottom: 15rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.h-40 {
+  height: 10rem;
 }
 
 .w-\[111px\] {
   width: 111px;
 }
 
-.place-content-center {
-  place-content: center;
+.w-\[500px\] {
+  width: 500px;
 }
 
-.content-center {
-  align-content: center;
+.w-\[1200px\] {
+  width: 1200px;
 }
 
-.self-auto {
-  align-self: auto;
+.w-\[2000px\] {
+  width: 2000px;
+}
+
+.w-\[1800px\] {
+  width: 1800px;
+}
+
+.w-\[1700px\] {
+  width: 1700px;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[5000px\] {
+  width: 5000px;
+}
+
+.w-\[800px\] {
+  width: 800px;
+}
+
+.w-min {
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .self-center {
   align-self: center;
 }
 
-.justify-self-auto {
-  justify-self: auto;
+.justify-self-end {
+  justify-self: end;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
 }
 
 .bg-black {
@@ -623,12 +789,60 @@ video {
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
+.bg-orange-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
+}
+
+.bg-green-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+}
+
+.bg-cyan-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(207 250 254 / var(--tw-bg-opacity));
+}
+
+.bg-blue-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
+}
+
+.bg-indigo-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(99 102 241 / var(--tw-bg-opacity));
+}
+
+.bg-purple-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(168 85 247 / var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-right {
+  -o-object-position: right;
+     object-position: right;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
 .text-center {
   text-align: center;
 }
 
 .text-right {
   text-align: right;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .font-arcade {
@@ -640,8 +854,32 @@ video {
   line-height: 1;
 }
 
-.text-\[50pt\] {
-  font-size: 50pt;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-\[64pt\] {
+  font-size: 64pt;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .italic {
@@ -660,8 +898,4 @@ video {
 
 .hover\:italic:hover {
   font-style: italic;
-}
-
-.hover\:not-italic:hover {
-  font-style: normal;
 }
